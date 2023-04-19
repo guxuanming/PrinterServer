@@ -1,0 +1,9 @@
+<body>
+  <h1>已打印文件列表</h1>
+  <ul>
+    {% for file in files %}
+    <li>{{ file.filename }}</li>
+    {% endfor %}
+  </ul>
+  <a href="/">返回首页</a>
+</body>
